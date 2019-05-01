@@ -1,0 +1,166 @@
+/******************base****************/
+@font-face {
+font-family: wisdom;
+src: url('../fonts/wisdom.otf') format('opentype');
+}
+
+
+
+
+/******************grids***************/
+.top {
+	height:450px;
+}
+
+
+.main-title{
+	height:150px;
+}
+
+.bottom{
+	height:200px;
+	}
+
+.section-one, .section-two, .section-three {
+		height:200px;
+		width:400px;
+		float:left;
+		border-top:1px solid;
+		border-bottom: 1px solid;
+		padding: 0 30px;
+	}
+
+.section-one {
+	margin-left: 30px;
+
+}
+
+.section-two{
+		border-left:1px solid;
+		border-right: 1px solid;
+	}
+
+
+
+.full-width {
+	width:1200px;
+}
+/*******************header*************/
+header {
+	height:100px;
+	color:#0d0c0c;
+}
+
+header h1{
+	font-family:'montserrat',sans serif;
+	font-size:40px;
+	font-weight: bolder;
+	float:left;
+	padding:30px 25px;
+}
+
+header h1 span{
+	font-family:'montserrat', sans serif;
+	color:#77a466;
+	float:left;
+}
+
+nav {
+    float: right; 
+    padding: 60px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase; 
+    text-decoration:none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #77a466;
+    padding-left: 50px; 
+}
+
+
+
+
+/***************** top section**************/
+ .main-image {
+ 	height:300px;
+ 	background-image: url('../img/hero-image.png');
+ 	background-size:cover;
+ 	margin-top:50px;
+ 	margin-left: 20px;
+ 	margin-right:20px;
+	border-bottom: 3px solid #77a466;
+}
+
+ .main-title h3 {
+ 	font-family: 'montserrat', sans serif;
+ 	font-size: 18px;
+ 	color:#77a466;
+ 	margin-left:20px;
+ 	font-weight: bolder;
+
+ }
+
+ .main-title p {
+ 	font-family: 'montserrat', sans serif;
+ 	font-size:16px;
+ 	font-color:#000000;
+ 	margin-left:20px;
+ 	margin-right: 20px;
+
+
+ }
+
+/****************bottom section****************/
+
+.section-one h5 {
+	font-family:'montserrat', sans serif;
+	font-weight:bolder;
+	font-size:12px;
+	margin-left:0;
+}
+
+.section-one h5 span {
+	margin-left: 40px;
+}
+
+.section-one ul {
+	list-style: none;
+	margin-left: 0;
+}
+
+.section-one ul li {
+	font-family: 'montserrat';
+	font-size:16px;
+	line-height:30px;
+	color:#77a466;
+}
+
+.section-two p, .section-three p{
+	font-family: 'montserrat';
+	font-size:16px;
+	line-height: 25px;
+	margin-left:20px;
+
+
+}
+
+/********************footer***************/
+
+footer h3 {
+	font-family: 'montserrat';
+	font-size:16px;
+	font-weight:bolder;
+	text-align:center;
+	padding-left:50px;
+}
+
+footer h3 span {
+	font-family:'wisdom';
+	color:#77a466;
+}
